@@ -1,79 +1,75 @@
-# Build Your Own OpenClaw
+[update-readmes]   Mode: rewrite — migrating to template structure...
+# build-your-own-openclaw
 
-A step-by-step tutorial to build your own AI agent, from a simple chat loop to a lightweight version of [OpenClaw](https://github.com/openclaw/openclaw).
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/build-your-own-openclaw)
 
-## Overview
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-**18 progressive steps** that teach you how to build an minimal version of OpenClaw. Each step includes:
+## Architecture
 
-- A `README.md` going through key components and design decision.
-- A Runnable codebase.
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
-**Example Project:** [pickle-bot](https://github.com/czl9707/pickle-bot) - our reference implementation
+## Install
 
-## Tutorial Structure
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
 
-### Phase 1: Capable Single Agent (Steps 1-7)
-Build a fully-functional agent that can chat, use tools, learn skills, remember conversations, and access the internet.
+```bash
+git clone https://github.com/Interested-Deving-1896/build-your-own-openclaw.git
+cd build-your-own-openclaw
+```
 
-- [**00-chat-loop**](./00-chat-loop/) - Just a Chat Loop
-- [**01-tools**](./01-tools/) - Give your agent a tool.
-- [**02-skills**](./02-skills/) - Extend your agent with `SKILL.md`
-- [**03-persistence**](./03-persistence/) - Save your conversations.
-- [**04-slash-commands**](./04-slash-commands/) - Direct user control over sessions.
-- [**05-compaction**](./05-compaction/) - Pack you history and carry on...
-- [**06-web-tools**](./06-web-tools/) - Your Agent want to see the bigger world.
+## Usage
 
-### Phase 2: Event-Driven Architecture (Steps 8-11)
-Refactor to event-driven architecture for scalability and multi-platform support.
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
 
-- [**07-event-driven**](./07-event-driven/) - Expose you agent beyond CLI.
-- [**08-config-hot-reload**](./08-config-hot-reload/) - Edit without restart.
-- [**09-channels**](./09-channels/) - Talk to your agent from on your phone.
-- [**10-websocket**](./10-websocket/) - Want to interact with you agent programatically?
+## Configuration
 
-### Phase 3: Autonomous & Multi-Agent (Steps 12-16)
-Add scheduled tasks, agent collaboration, and intelligent routing.
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
 
-- [**11-multi-agent-routing**](./11-multi-agent-routing/) - Route right job to right agent.
-- [**12-cron-heartbeat**](./12-cron-heartbeat/) - An Agent work while you are sleeping.
-- [**13-multi-layer-prompts**](./13-multi-layer-prompts/) - More Context, More Context, More Context.
-- [**14-post-message-back**](./14-post-message-back/) - Your Agent want to Speak to you.
-- [**15-agent-dispatch**](./15-agent-dispatch/) - Your Agent want friends to work with!
+## CI
 
-### Phase 4: Production & Scale (Steps 17-18)
-Features for reliability and long-term memory.
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
 
-- [**16-concurrency-control**](./16-concurrency-control/) - Too many Pickle is running at the same time?
-- [**17-memory**](./17-memory/) - Remember me!
+## Mirror chain
 
-## How to Use This Tutorial
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/build-your-own-openclaw`](https://github.com/Interested-Deving-1896/build-your-own-openclaw) and mirrored through:
 
-### Configure API Keys
+```
+Interested-Deving-1896/build-your-own-openclaw  ──►  OpenOS-Project-OSP/build-your-own-openclaw  ──►  OpenOS-Project-Ecosystem-OOC/build-your-own-openclaw
+```
 
-Before running any step, you need to configure your API keys:
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
 
-1. **Copy the example config:**
-   ```bash
-   cp default_workspace/config.example.yaml default_workspace/config.user.yaml
-   ```
+## Contributors
 
-2. **Edit `config.user.yaml`** with your API keys:
-   - See [LiteLLM providers](https://docs.litellm.ai/docs/providers) for the full list of supported providers
-   - Check out [Provider Examples](PROVIDER_EXAMPLES.md) for some examples
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
 
-3. Just follow each steps, read and try it out.
+## Origins
 
-## Star History
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
 
-<a href="https://www.star-history.com/?repos=czl9707%2Fbuild-your-own-openclaw&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=czl9707/build-your-own-openclaw&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=czl9707/build-your-own-openclaw&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=czl9707/build-your-own-openclaw&type=date&legend=top-left" />
- </picture>
-</a>
+## Resources
 
-## Contributing
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
 
-Each step is implemented in a separate session. Feel free to suggest improvements!
+## License
+
+<!-- AI:start:license -->
+<!-- License not detected — add a LICENSE file to this repo. -->
+<!-- AI:end:license -->
